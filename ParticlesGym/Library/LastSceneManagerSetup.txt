@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ParticlesEffect/Scenes/Main.unity
+- path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/2. Mask (Plane).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

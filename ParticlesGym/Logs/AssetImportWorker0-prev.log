@@ -15,7 +15,7 @@ D:/Git/Particles_Gym/ParticlesGym
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64072
+51890
 Successfully changed project path to: D:/Git/Particles_Gym/ParticlesGym
 D:/Git/Particles_Gym/ParticlesGym
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Git/Particles_Gym/ParticlesGym
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Resources/UnitySubsystems
@@ -57,103 +57,103 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
-    Driver:   31.0.15.2225
+    VRAM:     8031 MB
+    Driver:   31.0.15.2756
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008525 seconds.
+Registered in 0.010045 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 100.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.747 seconds
 Domain Reload Profiling:
-	ReloadAssembly (684ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (495ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (545ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (69ms)
+				InitializePlatformSupportModulesInManaged (76ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				RefreshPlugins (110ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003745 seconds.
+Registered in 0.004031 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Git\Particles_Gym\ParticlesGym\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Git\Particles_Gym\ParticlesGym\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 99.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.869 seconds
+- Completed reload, in  2.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1870ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (2025ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (1556ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (306ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1112ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1166ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (779ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (1.9 MB). Loaded Objects now: 5556.
-Memory consumption went from 278.5 MB to 276.6 MB.
-Total: 4.427000 ms (FindLiveObjects: 0.688500 ms CreateObjectMapping: 0.205600 ms MarkObjects: 3.091300 ms  DeleteObjects: 0.440600 ms)
+Unloading 5106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.9 MB). Loaded Objects now: 5567.
+Memory consumption went from 279.4 MB to 277.5 MB.
+Total: 4.527400 ms (FindLiveObjects: 0.692700 ms CreateObjectMapping: 0.216000 ms MarkObjects: 3.161900 ms  DeleteObjects: 0.455600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,65 +167,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 120796.696477 seconds.
-  path: Assets/TrailPlane.prefab
-  artifactKey: Guid(b38eaccf87ab5ed43b3d6591c388f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrailPlane.prefab using Guid(b38eaccf87ab5ed43b3d6591c388f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ba39b43995f5886da531bc42751956') in 0.151094 seconds 
+  Time since last request: 514702.733692 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Ground.mat
+  artifactKey: Guid(c11850e52a40dba4087e056b2ed40b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Ground.mat using Guid(c11850e52a40dba4087e056b2ed40b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4907d05e242b29ec161ccf0493bf80ab') in 0.288840 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003997 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Git\Particles_Gym\ParticlesGym\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Git\Particles_Gym\ParticlesGym\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1069ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (595ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4978 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.9 MB). Loaded Objects now: 5565.
-Memory consumption went from 271.5 MB to 269.7 MB.
-Total: 4.771700 ms (FindLiveObjects: 0.633000 ms CreateObjectMapping: 0.171500 ms MarkObjects: 3.295800 ms  DeleteObjects: 0.670300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 31.412429 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/2. Mask (Plane).unity
+  artifactKey: Guid(60344f7baf740b84cb1d1d7fc5d1c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/2. Mask (Plane).unity using Guid(60344f7baf740b84cb1d1d7fc5d1c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d9dbb36f95bc6fd505f30a3c4cd102') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.843095 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Shaders/Unity Shader Graph/Distance Fade.shadersubgraph
+  artifactKey: Guid(23e1142564920a54ab7bbde3f5d77ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Shaders/Unity Shader Graph/Distance Fade.shadersubgraph using Guid(23e1142564920a54ab7bbde3f5d77ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb4b58a33d715f5790486c0d69143c5') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Shaders/Unity Shader Graph/Mask (Sphere).shadersubgraph
+  artifactKey: Guid(f757beaaab78771438efa80e29be352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Shaders/Unity Shader Graph/Mask (Sphere).shadersubgraph using Guid(f757beaaab78771438efa80e29be352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22276c5c4cd759b012c7d13e81d7a3d4') in 0.004926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.241980 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Shaders/cginc/WireframeShader.cginc
+  artifactKey: Guid(36072c560231e604cb8f0c03c7ff456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Shaders/cginc/WireframeShader.cginc using Guid(36072c560231e604cb8f0c03c7ff456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4272b4f4b395536ccd74611e9a0035') in 0.005738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.172123 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Shaders/Amplify Shader Editor/Distance Fade.asset
+  artifactKey: Guid(9501535b7135acf47ace2ebb116ac7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Shaders/Amplify Shader Editor/Distance Fade.asset using Guid(9501535b7135acf47ace2ebb116ac7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9566e479fc2ac249655ed48b06168e') in 0.003772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Shaders/Amplify Shader Editor/Read Wireframe.asset
+  artifactKey: Guid(f21eeb0591d87a242b9a31144d095f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Shaders/Amplify Shader Editor/Read Wireframe.asset using Guid(f21eeb0591d87a242b9a31144d095f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34d82763ceedb423ad34507c7cb5682') in 0.002624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.646651 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/ChestMonster.asset
+  artifactKey: Guid(d888ad6b6a9461944b313afa0a0b2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/ChestMonster.asset using Guid(d888ad6b6a9461944b313afa0a0b2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de10c5bff8e546d229609a49ecf41a5') in 0.030578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/Taunting.fbx
+  artifactKey: Guid(a45e5f41380cac844ad15cb62cd7fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/Taunting.fbx using Guid(a45e5f41380cac844ad15cb62cd7fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0991ee6b41493f5f23eb7153af5b51ee') in 0.071253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/ChestMonster_Quad.asset
+  artifactKey: Guid(60b7afe7b4b513042a111ffec95183fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/ChestMonster/ChestMonster_Quad.asset using Guid(60b7afe7b4b513042a111ffec95183fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293a9b24d614c10539d20c105546dc20') in 0.020067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.776500 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Additive (Mask Box).mat
+  artifactKey: Guid(8c327095ca7d64547957c80dacbb30bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Additive (Mask Box).mat using Guid(8c327095ca7d64547957c80dacbb30bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5541d958b6e1d65bacd0ddb8365ff4b') in 0.192395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Wire Cutout Texture).mat
+  artifactKey: Guid(fde0236548b5573419e14abe241e170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Wire Cutout Texture).mat using Guid(fde0236548b5573419e14abe241e170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834abdf7c4735ceff050bc8c002bd1f9') in 0.202023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Cutout Texture).mat
+  artifactKey: Guid(467b754aedc325b4d94fd2eac97ea81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Cutout Texture).mat using Guid(467b754aedc325b4d94fd2eac97ea81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62fe6356ce36b273d1e3157feeac635') in 0.163114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Plane Invert).mat
+  artifactKey: Guid(53e4a9090c8fce64688af58967f6b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Plane Invert).mat using Guid(53e4a9090c8fce64688af58967f6b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8dfa5efe660f4bf611bfad8a20ec76') in 0.211391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Plane (Mask Box).mat
+  artifactKey: Guid(3a1a515d57ec8cb4d8564863e47a2181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Plane (Mask Box).mat using Guid(3a1a515d57ec8cb4d8564863e47a2181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e77e5ccaa5c0d4223b2e2ad74e60cb') in 0.300177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Box Invert).mat
+  artifactKey: Guid(86dd8169b8950984588000090c3b5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Box Invert).mat using Guid(86dd8169b8950984588000090c3b5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cb58f8061c345831bd5a010799776f') in 0.010851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Wire Cutout Texture Invert).mat
+  artifactKey: Guid(773f1da30bb4a9b47bddfb41d0f98736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Base (Wire Cutout Texture Invert).mat using Guid(773f1da30bb4a9b47bddfb41d0f98736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28abd4b4d7e898e5c966624fc86d0a7f') in 0.172864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Specular (Mask Plane).mat
+  artifactKey: Guid(b27a3377369f3624894501d206dd6ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Specular (Mask Plane).mat using Guid(b27a3377369f3624894501d206dd6ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad808897d59e5aeda332c8278b05141') in 0.009189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Sphere Invert).mat
+  artifactKey: Guid(4977567162dc5e941b3b04a39ce4d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Sphere Invert).mat using Guid(4977567162dc5e941b3b04a39ce4d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e97263de00fbc7239152af19e2de8a') in 0.178431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Specular (Mask Sphere).mat
+  artifactKey: Guid(f9004c12ed5cd26488ea16d64c729a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Specular (Mask Sphere).mat using Guid(f9004c12ed5cd26488ea16d64c729a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf1be70af1cc97cfe249ce544bf2885') in 0.177782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Additive (Mask Sphere).mat
+  artifactKey: Guid(2f82132d614cc26438982fb529e70001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Additive (Mask Sphere).mat using Guid(2f82132d614cc26438982fb529e70001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891be173d46b1c24bda56a8efd310c06') in 0.165128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Box).mat
+  artifactKey: Guid(5a1bf208c07a83b42ac832bac2015102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Wireframe Shader/Example Scenes/Files/Materials/Cutout (Mask Box).mat using Guid(5a1bf208c07a83b42ac832bac2015102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3125270ad87444f94e5fb246ea94b9') in 0.312182 seconds 

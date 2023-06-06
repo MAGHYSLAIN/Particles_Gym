@@ -7,7 +7,11 @@
     },
     {
       "FullName": "Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-19T07:33:15.8841547Z"
+      "LastWriteTime": "2023-02-10T07:10:44.2304633Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-02-10T07:10:43.1589631Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -18,16 +22,8 @@
       "LastWriteTime": "2022-03-09T08:20:20Z"
     },
     {
-      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2022-03-09T08:20:20Z"
-    },
-    {
-      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-19T07:33:15.1601558Z"
-    },
-    {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-19T07:33:14.213157Z"
+      "LastWriteTime": "2023-02-10T07:10:41.8729638Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -36,19 +32,6 @@
   ],
   "Functions": [
     {
-      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.Rendering.Universal.RadixSortJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.RadixSortJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "4cee880a3be8f750d673d5577014cd2c",
-      "LinkName": "61C3A28A28E7C7BF",
-      "AssemblyDependencyIndices": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    {
       "FullName": "Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCombineJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCombineJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
       "ModuleHash": "c46ace5adba418d7dca735836dea6884",
@@ -56,7 +39,6 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        5,
         2,
         3,
         4
@@ -70,10 +52,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
         3,
-        5,
-        4
+        4,
+        2
       ]
     },
     {
@@ -84,10 +65,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
         3,
-        5,
-        4
+        4,
+        2
       ]
     },
     {
@@ -98,9 +78,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        5,
         3,
+        2,
         4
       ]
     },
@@ -112,9 +91,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        5,
         3,
+        2,
         4
       ]
     },
@@ -126,9 +104,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        5,
         3,
+        2,
         4
       ]
     },
@@ -138,9 +115,9 @@
       "ModuleHash": "deb88fee8687650b75865dceddc1bd72",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        6,
-        3,
-        2
+        5,
+        4,
+        3
       ]
     },
     {
@@ -149,9 +126,10 @@
       "ModuleHash": "2e2319173780757b2598256ed1d36708",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
+        5,
         6,
         3,
-        2
+        4
       ]
     },
     {
@@ -162,10 +140,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
         3,
-        5,
-        4
+        4,
+        2
       ]
     },
     {
@@ -176,8 +153,6 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        4,
         3
       ]
     },
@@ -189,8 +164,19 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        7,
-        2,
+        3,
+        4
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.Rendering.Universal.RadixSortJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.RadixSortJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "4cee880a3be8f750d673d5577014cd2c",
+      "LinkName": "61C3A28A28E7C7BF",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        6,
         3,
         4
       ]
